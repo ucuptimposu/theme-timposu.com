@@ -657,7 +657,7 @@ td, th {
         width: 35px;
         height: 74px; } }
 
-.p1-gradient-bg, .primary-btn, .primary-btn.white:hover, .banner-content .input-wrap .search-btn, .courses-list li:hover, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
+.p1-gradient-bg, .primary-btn, .primary-btn.white:hover, .banner-content .input-wrap .search-btn, .courses-list li:hover, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget  .click-btn, .footer-area .footer-bottom .footer-social a:hover {
   background: -webkit-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
   background: -moz-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
   background: -o-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
@@ -1554,7 +1554,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997; }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(41, 99, 33, 0.9);
   transition: all 0.5s; }
   #header.header-scrolled .nav-menu li:hover > a, #header.header-scrolled .nav-menu > .menu-active > a {
     color: #39cfca; }
@@ -2799,25 +2799,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 0; }
     .footer-area .single-footer-widget .click-btn span {
       font-weight: 500; }
-  .footer-area .footer-bottom {
-    margin-top: 90px; }
-    @media (max-width: 991px) {
-      .footer-area .footer-bottom {
-        margin-top: 20px; } }
-    .footer-area .footer-bottom p {
-      color: #fff; }
-    .footer-area .footer-bottom a,
-    .footer-area .footer-bottom span {
-      color: #39cfca; }
-    .footer-area .footer-bottom span {
-      font-weight: 700; }
-    .footer-area .footer-bottom .footer-social {
-      text-align: center; }
+      .footer-area .single-footer-widget .footer-social {
+      text-align: left; }
       @media (max-width: 991px) {
-        .footer-area .footer-bottom .footer-social {
+        .footer-area .single-footer-widget .footer-social {
           text-align: left;
           margin-top: 30px; } }
-      .footer-area .footer-bottom .footer-social a {
+      .footer-area .single-footer-widget .footer-social a {
         background: #4da6ff;
         margin-left: 5px;
         width: 40px;
@@ -2830,5 +2818,44 @@ body.mobile-nav-active #mobile-nav-toggle {
         -moz-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
+        .footer-area .single-footer-widget .footer-social a:hover {
+        background: -webkit-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+        background: -moz-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+        background: -o-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+        background: -ms-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+        background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%); }  
+  .footer-area .footer-bottom {
+    margin-top: 90px; }
+    @media (max-width: 991px) {
+      .footer-area .footer-bottom {
+        margin-top: 20px; } }
+    .footer-area .footer-bottom p {
+      color: #fff; }
+    .footer-area .footer-bottom a,
+    .footer-area .footer-bottom span {
+      color: #39cfca; }
+    .footer-area .footer-bottom span {
+      font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
+
+/*custom */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
