@@ -647,7 +647,7 @@ td, th {
     #back-top {
       right: 5px; } }
   #back-top a {
-    background: url(../img/rocket.png) no-repeat;
+    background: url(../img/rocket_top.png) no-repeat;
     background-size: 95% 80%;
     width: 50px;
     height: 116px;
@@ -920,6 +920,10 @@ h1, h2, h3, h4, h5, h6 {
     background: #f9f9ff;
     border: 1px solid transparent;
     cursor: not-allowed; }
+    .right {
+      position: absolute;
+      right: 10px;      
+    }
 
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
@@ -2006,6 +2010,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   .feature-item:hover {
     background: #fff;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); }
+    .right {
+      position: absolute;
+      right: 10px;      
+    }
 
 .faculty-area {
   background-color: #f1f9ff; }
@@ -2743,7 +2751,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #283367; }
+  background: #404040;
+  color: #cccccc; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
@@ -2763,7 +2772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
-      color: #777777; }
+      color: #cccccc; }
       .footer-area .single-footer-widget ul li a:hover {
         color: #fff; }
   .footer-area .single-footer-widget .form-wrap {
@@ -2809,7 +2818,7 @@ body.mobile-nav-active #mobile-nav-toggle {
           text-align: left;
           margin-top: 30px; } }
       .footer-area .footer-bottom .footer-social a {
-        background: #3e4876;
+        background: #4da6ff;
         margin-left: 5px;
         width: 40px;
         color: #fff;
