@@ -1554,7 +1554,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997; }
 
 #header.header-scrolled {
-  background: rgba(41, 99, 33, 0.9);
+  background: rgba(3, 2, 2, 0.94);
   transition: all 0.5s; }
   #header.header-scrolled .nav-menu li:hover > a, #header.header-scrolled .nav-menu > .menu-active > a {
     color: #39cfca; }
