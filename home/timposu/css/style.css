@@ -179,7 +179,7 @@ footer {
   padding-top: 2rem;
   padding-bottom: 3rem;
   color: #cdcdce;
-  background-color: rgb(64, 64, 64);
+  background-color: rgb(53, 58, 66);
 }
 
 footer p {
@@ -265,3 +265,21 @@ footer a:hover {
   background: #a4c639;
   color: white;
 }
+
+.fa.fa-navicon {
+  color:rgb(66, 66, 66);
+  /* background: #a4c639; */
+  font-size: 25px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 0%;
+}
+
+/* Card */
+.card{
+  height: 350px;
+}
+
+.card-text { height: 42px; overflow-x: scroll; width: 100%; }
+
+.card-text p { width: 650px; word-break: break-word; }  
