@@ -144,6 +144,7 @@ body {
   background: linear-gradient(rgba(20,20,20,0.7), rgba(20,20,20,0.7)),url(img/bg.gif);  
   /* background-image: url('img/bg.gif'); */
   color: #f8f9fa;
+  background-size: cover;
 }
 
 .jumbotron .text-muted-jumbotron {
@@ -166,6 +167,8 @@ body {
 }
 
 .jumbotron .container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 40rem;
 }
 /* End Jumbotron Style */
