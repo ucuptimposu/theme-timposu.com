@@ -29,9 +29,12 @@ Dapat Salam dari :
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
 
   <!-- Style Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fa.css">
 </head>
 <body class="bg-light">
 <!-- Mulai Navbar Menu -->
@@ -72,7 +75,7 @@ Dapat Salam dari :
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">Yoo Yo Ayo...</h1>
-    <p class="lead text-muted-jumbotron">Belajar koding di Timposu.com, santai, rileks dengan materi yang terstruktur padat dan jelas. Asah kemampuanmu, siapapun kalian, semua bisa belajar koding walaupun bukan anak IT.</p>
+    <p class="lead text-muted-jumbotron animation">Belajar koding dengan screencast, santai, rileks dengan materi yang terstruktur padat dan jelas. Asah kemampuanmu, siapapun kalian, semua bisa belajar koding walaupun bukan anak IT</p>
     <p>
       <a href="#" class="btn btn-success my-3 mx-2">Mulai Belajar</a>
       <a href="#" class="btn btn-success my-3 mx-2">Ayo Gabung</a>
@@ -88,17 +91,24 @@ Dapat Salam dari :
   <div class="container">
     
     <!-- Seri Terbaru -->
-    <div class="text-center"><h1 class="mt-2 mb-5">Seri Terbaru</h1></div>
+    <div class="text-center animation mb-5">
+      <h1 class="mt-2 mb-2"><strong>Seri Terbaru</strong></h1>
+      <p class="lead text-muted-gabung-yuk animation">Yuk belajar seri video screencast terbaru </p>            
+    </div>
     <!-- Card Seri Terbaru -->
-    <div class="row">
+    <div class="row animation">
       <div class="col-md-4 mb-4">
         <div class="card shadow-sm">
-          <img src="img/card.jpg" class="card-img-top" alt="...">
+          <a href="#"><img src="img/card.jpg" class="card-img-top image" alt="...">
+            <div class="middle">
+              <div class="mainkan"><i class="fa fa-play-card fa-play" aria-hidden="true"></i></div>
+            </div>
+          </a>
           <div class="card-body">
               <small class="d-block text-muted">
                   02-03-2019
               </small>
-            <h5 class="card-title">Belajar Pemrograman Java</h5>
+            <h5 class="card-title"><a href="#">Belajar Pemrograman Java</a></h5>
             <a href="#" class="btn btn-outline-success align-bottom">Tonton Serinya</a>
           </div>
         </div>
@@ -165,10 +175,40 @@ Dapat Salam dari :
       </div>
     </div>
     <!-- Akhir Card Seri Terbaru -->
-    <div class="float-md-right"><a href="#" class="btn btn-danger my-3 mx-2">Seri Selengkapnya...</a></div><br>
+    <div class="d-flex justify-content-center animation"><a href="#" class="btn btn-danger my-3 mx-2">Lihat Seri Lainnya <i class="fa fa-arrow-circle-right m-0 p-0" aria-hidden="true"></i></a></div><br>
     <!-- Akhir Seri Terbaru -->
   </div>
   <!-- Akhir Container -->
+
+  <!-- Follow Us -->
+  <div class="follow-us">
+    <div class="text-center animation">
+      <h1><strong>Fallaaooww</strong></h1>
+      <p class="lead text-muted-jumbotron">Ayo buruan ikuti kami biar tidak ketinggalan update dari Timposu.com</p>
+          <a href="http://fb.com/timposulabs" class="fa fa-color fa-facebook fa-color-facebook" target="_blank"></a>
+          <a href="http://twitter.com/timposulabs" class="fa fa-color fa-twitter fa-color-twitter" target="_blank"></a>
+          <a href="https://www.youtube.com/channel/UCQuqLNCoV0nHSfetbGw2W-A" class="fa fa-color fa-youtube-play fa-color-youtube-play" target="_blank"></a>
+          <a href="http://instagram.com/timposulabs" class="fa fa-color fa-instagram fa-color-instagram" target="_blank"></a>
+          <a href="https://t.me/timposulabs" class="fa fa-color fa-telegram fa-color-telegram" target="_blank"></a>
+          <a href="https://id.pinterest.com/ucuptimposu/" class="fa fa-color fa-pinterest fa-color-pinterest" target="_blank"></a>
+          <a href="http://github.com/timposu" class="fa fa-color fa-github fa-color-github" target="_blank"></a>
+     </div>
+  </div>
+  <!-- Akhir Follow Us -->
+
+  <!-- Gabung Yuk -->
+  <div class="gabung-yuk">
+    <section class="gabung-yuk text-center">
+        <div class="container">
+          <div class="py-5">
+            <p class="lead text-muted-gabung-yuk animation">Ayo gabung sekarang. Temukan cara belajar mudah, cepat, dan efisien. Asah skillmu lalu implementasikan apa yang kalian dapatkan dari tempat ini. </p>
+            <p>
+              <a href="#" class="btn btn-danger my-3 mx-2">Gabung Sekarang</a>            
+          </div>
+        </div>
+      </section>
+  </div>
+  <!-- Akhir Gabung Yuk -->
 </main>
 <!-- Akhir Konten -->
 
@@ -176,33 +216,35 @@ Dapat Salam dari :
 <footer class="py-5">
   <div class="container">
   <div class="row">
-    <div class="col-12 col-md mt-3 mb-4">
-      <a href="/">
-      <img class="mx-auto d-block mb-3" alt="Logo Timposu" title="Logo Timposu" src="img/footer-logo.png" width="180" height="110" alt="timposu logo"/></a>
+    <div class="col-12 col-md mt-3 mb-1">
+      <a href="#">
+      <img class="mx-auto d-block mb-3 image" alt="Logo Timposu" title="Logo Timposu" src="img/footer-logo.png" width="180" height="110" alt="timposu logo"/></a>
       <small class="d-block mb-3 text-muted-footer text-center">
         Copyright &copy; 2019 - Ucup Timposu<br/>
         <i class="fa fa-map-marker" aria-hidden="true"></i>Palu, Indonesia
       </small>      
     </div>
     <div class="col-6 col-md">
-      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Features</h5>
+      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Resources</h5>
       <ul class="list-unstyled text-small">
         <li><a class="text-muted-footer" href="#">Home</a></li>
         <li><a class="text-muted-footer" href="#">Seri</a></li>
-        <li><a class="text-muted-footer" href="https://blog.timposu.com">Blog</a></li>
+        <li><a class="text-muted-footer" href="#">Screencast</a></li>
+        <li><a class="text-muted-footer" href="#">Kategori</a></li>
+        <li><a class="text-muted-footer" href="https://blog.timposu.com" target="_blank">Blog</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Topik</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted-footer" href="#">Resource</a></li>
-        <li><a class="text-muted-footer" href="#">Resource name</a></li>
-        <li><a class="text-muted-footer" href="#">Another resource</a></li>
-        <li><a class="text-muted-footer" href="#">Final resource</a></li>
+        <li><a class="text-muted-footer" href="#">Database</a></li>
+        <li><a class="text-muted-footer" href="#">Java</a></li>
+        <li><a class="text-muted-footer" href="#">Php</a></li>
+        <li><a class="text-muted-footer" href="#">Python</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Ekstra</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Informasi</h5>
         <ul class="list-unstyled text-small">
           <li><a class="text-muted-footer" href="#">Tentang</a></li>
           <li><a class="text-muted-footer" href="#">Kontak</a></li>
@@ -210,18 +252,19 @@ Dapat Salam dari :
           <li><a class="text-muted-footer" href="#">Syarat & Ketentuan</a></li>
         </ul>
       </div>
-    <div class="col-6 col-md">
-      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Fallauww</h5>
-      <div class="text-center">
-        <a href="http://fb.com/timposulabs" class="fa fa-facebook" target="_blank"></a>
-        <a href="http://twitter.com/timposulabs" class="fa fa-twitter" target="_blank"></a>
-        <a href="https://www.youtube.com/channel/UCQuqLNCoV0nHSfetbGw2W-A" class="fa fa-youtube-play" target="_blank"></a>
-        <a href="http://instagram.com/timposulabs" class="fa fa-instagram" target="_blank"></a>
-        <a href="http://github.com/timposu" class="fa fa-github" target="_blank"></a>
-      </div>
-    </div>
+    
   </div>
   </div>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <a href="http://fb.com/timposulabs" class="fa fa-facebook" target="_blank"></a>
+    <a href="http://twitter.com/timposulabs" class="fa fa-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/channel/UCQuqLNCoV0nHSfetbGw2W-A" class="fa fa-youtube-play" target="_blank"></a>
+    <a href="http://instagram.com/timposulabs" class="fa fa-instagram" target="_blank"></a>
+    <a href="https://t.me/timposulabs" class="fa fa-telegram" target="_blank"></a>
+    <a href="http://github.com/timposu" class="fa fa-github" target="_blank"></a>
+  </div>
+  <!-- Copyright -->
 </footer>
 <!-- Akhir Footer -->
 
